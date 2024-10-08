@@ -11,7 +11,7 @@ export default function Features() {
         </h3>
       </div>
       <div className="sm:flex portrait:grid portrait:grid-cols-2 portrait:gap-7 portrait:pt-6 portrait:ml-1 portrait:mr-3 sm:gap-20 sm:pt-11 ">
-        <div className="sm:max-w-[24rem] sm:w-[20rem] sm:h-[25rem]  portrait:text-xs portrait:w-48 portrait:h-64 border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  grid items-center pb-4">
+        <div className="sm:max-w-[24rem] sm:w-[20rem] sm:h-[25rem]  portrait:text-xs portrait:w-44 portrait:h-64 border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  grid items-center pb-4">
           <span className="ml-1 bg-red-700 rounded-md w-10 flex text-white justify-center">
             HOT
           </span>
@@ -55,7 +55,7 @@ export default function Features() {
           </div>
         </div>
 
-        <div className="max-w-[24rem] w-[20rem] h-[25rem]  portrait:text-xs portrait:w-48 portrait:h-64 border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  grid items-center pb-4">
+        <div className="max-w-[24rem] w-[20rem] h-[25rem]  portrait:text-xs portrait:w-44 portrait:h-64 border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  grid items-center pb-4">
           <span className="ml-1 bg-red-700 rounded-md w-10 flex text-white justify-center">
             HOT
           </span>
@@ -99,7 +99,7 @@ export default function Features() {
           </div>
         </div>
 
-        <div className="max-w-[24rem] w-[20rem] h-[25rem] portrait:text-xs portrait:w-48 portrait:h-64  border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  grid items-center pb-4 portrait:mt-20">
+        <div className="max-w-[24rem] w-[20rem] h-[25rem] portrait:text-xs portrait:w-44 portrait:h-64  border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  grid items-center pb-4 portrait:mt-20">
           <span className="ml-1 bg-red-700 rounded-md w-10 flex text-white justify-center">
             HOT
           </span>
@@ -143,7 +143,7 @@ export default function Features() {
           </div>
         </div>
 
-        <div className="max-w-[24rem] w-[20rem] h-[25rem]  portrait:text-xs portrait:w-48 portrait:h-64 border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  grid items-center pb-4 portrait:mt-20">
+        <div className="max-w-[24rem] w-[20rem] h-[25rem]  portrait:text-xs portrait:w-44 portrait:h-64 border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  grid items-center pb-4 portrait:mt-20">
           <span className="ml-1 bg-red-700 rounded-md w-10 flex text-white justify-center">
             HOT
           </span>

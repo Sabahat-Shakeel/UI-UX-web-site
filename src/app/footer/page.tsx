@@ -49,7 +49,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <p className="flex justify-start m-11 pt-6 text-gray-200 portrait:text-xl portrait:pt-28">
+        <p className="flex justify-start m-11 sm:pt-6 text-gray-200 portrait:text-xl ">
           ©Copyright 2024 | All right reserved
         </p>
       </footer>

@@ -10,12 +10,12 @@ function Header() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-  let myNAme: string = "SABAHAT.";
+
   return (
     <div className={`${isOpen ? "overflow-hidden" : ""}`}>
       <div className="portrait:flex portrait:justify-between portrait:gap-x-44 portrait:items-center portrait:text-xs portrait:bg-gradient-to-tr to-slate-400 via-slate-500 from-slate-950 text-neutral-300 dark:neutral-500">
         <h1 className="text-lg font-bold ml-3 sm:hidden sticky top-0 z-30 first-letter:text-2xl first-letter:text-cyan-400 ">
-          {myNAme}
+        SABAHAT.
         </h1>
         <div className="md:hidden cursor-pointer p-3 " onClick={toggleMenu}>
           <div className="w-8 h-0.5 bg-neutral-500 mb-1"></div>

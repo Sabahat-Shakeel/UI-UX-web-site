@@ -23,7 +23,7 @@ export default function Footer() {
               <Link href="">Contact us</Link>
             </li>
           </ul>
-          <div className="flex ml-16 portrait:ml-5 font-light  sm:justify-center items-start portrait:text-3xl ">
+          <div className="flex ml-16 portrait:ml-5 font-light  sm:justify-center items-start portrait:text-xl ">
             <ul className="items-start  sm:pt-11">
               <li className="text-stone-200 mt-1 font-medium underline portrait:text-2xl pt-11">
                 <Link href="">Products</Link>
@@ -49,7 +49,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <p className="flex justify-start m-11 sm:pt-6 text-gray-200 portrait:text-xl ">
+        <p className="flex justify-start portrait:mt-7 sm:m-11 sm:pt-6 text-gray-200 portrait:text-base ">
           ©Copyright 2024 | All right reserved
         </p>
       </footer>

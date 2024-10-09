@@ -2,7 +2,7 @@ import Image from "next/image";
 import Rank from "../rankstar/page";
 export default function Features() {
   return (
-    <div className="bg-slate-100 via-slate-900 from-slate-900 sm:mt-4 h-screen sm:ml-3 sm:mr-3">
+    <div className="bg-slate-100 via-slate-900 from-slate-900 sm:mt-4 h-screen sm:ml-3 sm:mr-3 flex-wrap">
       <hr />
 
       <div className="font-serif font-thin">
@@ -113,13 +113,13 @@ export default function Features() {
             height={200}
             className="sm:ml-3  portrait:ml-8 portrait:w-32"
           />
-          <div className="flex justify-center ">
-            <button className=" border border-slate-600 hover:bg-red-700 hover:border-transparent focus:bg-red-700 py-1 portrait:px-8 sm:w-44 flex justify-center  rounded-lg bg-gray-950  text-white outline-none">
+          <div className="flex justify-center mt-9 flex-col ">
+            <button className="  border border-slate-600 hover:bg-red-700 hover:border-transparent focus:bg-red-700 py-1 sm:w-44 flex justify-center sm:ml-8 rounded-lg bg-gray-950 portrait:w-32 portrait:ml-5 text-white  outline-none">
               Add to cart
             </button>
           </div>
 
-          <div className="sm:hidden portrait:mt-20 ml-3  ">
+          <div className="sm:hidden portrait:mt-11 ml-3  ">
             <Image
               src="/rank.png"
               alt="rankstars"
@@ -157,13 +157,13 @@ export default function Features() {
             height={200}
             className="sm:ml-2 sm:pb-3 portrait:ml-4 portrait:w-40 "
           />
-          <div className="flex justify-center ">
-            <button className="border border-slate-600 hover:bg-red-700 hover:border-transparent focus:bg-red-700 py-1 sm:w-44 flex justify-center  rounded-lg bg-gray-950  text-white portrait:px-8 outline-none">
+          <div className="flex justify-center sm:mt-9 portrait:mt-6 flex-col ">
+            <button className="  border border-slate-600 hover:bg-red-700 hover:border-transparent focus:bg-red-700 py-1 sm:w-44 flex justify-center sm:ml-8 rounded-lg bg-gray-950 portrait:w-32 portrait:ml-5 text-white  outline-none">
               Add to cart
             </button>
           </div>
 
-          <div className="sm:hidden mt-16 ml-3 ">
+          <div className="sm:hidden mt-11 ml-3 ">
             <Image
               src="/rank.png"
               alt="rankstars"

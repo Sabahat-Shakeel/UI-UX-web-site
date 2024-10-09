@@ -85,7 +85,7 @@ function Header() {
           >
             <option defaultValue="product">Items | Products</option>
             <option className=" text-black font-semibold  " value="Appliances">
-              Home appliances
+            Home appliances
             </option>
             <option className=" text-black font-semibold  " value="Appliances">
               Shirt

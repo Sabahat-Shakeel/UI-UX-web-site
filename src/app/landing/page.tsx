@@ -31,7 +31,7 @@ export default function Home() {
             className="sm:mt-11 transition-transform duration-100  portrait:flex portrait:w-72  portrait:ml-16 "
           />
           <div className="sm:hidden portrait:flex portrait:justify-center ">
-            <button className=" sm:hidden portrait:px-5 bg-gradient-to-tl rounded-sm via-slate-950 animate-pulse from-slate-600 text-white py-2 mt-5 ">
+            <button className=" sm:hidden portrait:px-5 bg-gradient-to-tl rounded-sm via-slate-950 animate-pulse from-slate-600 text-white py-2 mt-1 ">
               Shop now &#8594;
             </button>
           </div>

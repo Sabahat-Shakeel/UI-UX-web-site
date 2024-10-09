@@ -62,7 +62,7 @@ function Header() {
         </div>
       </div>
 
-      <header className="portrait:hidden sticky top-0 z-20 flex justify-between py-2 bg-gradient-to-tr to-slate-700 via-slate-300 from-slate-900">
+      <header className="portrait:hidden sticky top-0 z-20 flex justify-between py-2 bg-gradient-to-tr to-cyan-700 via-cyan-900 from-cyan-400">
         <h1 className="ml-16 text-lg font-bold portrait:hidden sticky top-0 z-30 first-letter:text-2xl first-letter:text-cyan-400">
           {" "}
           SABAHAT.

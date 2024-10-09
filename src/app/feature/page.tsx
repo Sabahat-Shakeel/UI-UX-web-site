@@ -2,7 +2,7 @@ import Image from "next/image";
 import Rank from "../rankstar/page";
 export default function Features() {
   return (
-    <div className="bg-slate-100 via-slate-900 from-slate-900 sm:mt-4 h-screen sm:ml-3 sm:mr-3 flex-wrap">
+    <div className=" via-slate-900 from-slate-900 sm:mt-4 h-screen sm:ml-3 sm:mr-3 flex-wrap">
       <hr />
 
       <div className="font-serif font-thin">
@@ -19,7 +19,7 @@ export default function Features() {
             10 %{" "}
           </span>
           <Image
-            src="/fone.png"
+            src="/hero2.png"
             alt="headphone"
             width={220}
             height={200}

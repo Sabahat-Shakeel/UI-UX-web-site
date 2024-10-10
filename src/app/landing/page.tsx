@@ -11,7 +11,7 @@ export default function Hero2() {
           {" "}
           Let&apos;s Explore Unique Products
         </h3>
-        <p className="text-lg sm:text-[#353535]  max-w-3xl text-wrap">
+        <p className="text-lg text-[#353535]  max-w-3xl text-wrap">
           Our Most Selling Products,best-selling product and we also recommend
           this product to our buyers because of its features and premium quality
           providing our customers with a stylish look and a premium sound

@@ -22,11 +22,11 @@ export default function Hero2() {
         </button>
       </div>
       <div className="flex-shrink-0 flex-row justify-center flex ">
-        <Image src="/fone.png" alt="" width={400} height={300} />
+        <Image src="/fone.png" alt="" width={400} height={300} className="animate-pulse hover:animate-spin ease-linear delay-500  transition-transform" />
       </div>
-      <button className="sm:hidden flex justify-center py-2 border-cyan-600 border w-40  bg-gradient-to-tr to-cyan-600 via-cyan-600 from-slate-500 animate-pulse">
-          Shop now &#8594;
-        </button>
+      <button className="sm:hidden flex justify-center py-2 border-cyan-600 border rounded-br-full w-40  bg-gradient-to-tr to-cyan-600 via-cyan-600 from-slate-500 animate-pulse ml-1">
+        Shop now &#8594;
+      </button>
     </div>
   );
 }

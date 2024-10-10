@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Para() {
   return (
     <div>
@@ -6,8 +8,8 @@ export default function Para() {
         Sabahat&apos;s Elegant E-Commerce Web Application Designer, E-Commerce
         Website Application Building Platforms For Online Stores In 2024 .{" "}
         </p>
-        <button className="py-2 px-6 border mt-11 rounded-lg bg-orange-500 text-black border-orange-400">
-          GitHub
+        <button className="py-2 px-6 border mt-11 rounded-lg bg-yellow-500 text-black border-yellow-500 active:bg-black active:text-white hover:duration-500 ">
+        <Link href="https://github.com/Sabahat-Shakeel"> GitHub </Link> 
         </button>
       </div>
     </div>

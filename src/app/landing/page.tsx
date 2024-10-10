@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Hero2() {
   return (
-    <div className="sm:flex py-20 flex-wrap min-h-screen min-w-full  bg-gradient-to-tr to-[#90e0ef] via-[#1b4965] from-[#90e0ef] ">
+    <div className="sm:flex py-20 flex-wrap min-h-screen min-w-full  bg-gradient-to-br to-[#90e0ef] via-[#1b4965] from-[#90e0ef] ">
       <div className=" space-y-9 p-4">
         <h1 className="sm:text-6xl text-5xl text-wrap font-bold ">
           SMARTER ACCESSORIES
         </h1>
-        <h3 className="sm:text-5xl text-4xl font-bold text-wrap text-[#231942]">
+        <h3 className="sm:text-5xl text-4xl font-bold text-wrap text-black">
           {" "}
           Let&apos;s Explore Unique Products
         </h3>

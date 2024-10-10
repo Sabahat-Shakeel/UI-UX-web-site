@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero2() {
   return (
-    <div className="sm:flex py-20 flex-wrap min-h-screen min-w-full bg-cyan-900 ">
+    <div className="sm:flex py-20 flex-wrap min-h-screen min-w-full  bg-gradient-to-r to-cyan-800 via-slate-950 from-cyan-800  ">
       <div className=" space-y-9 p-4">
         <h1 className="sm:text-6xl text-5xl text-wrap font-bold ">
           SMARTER ACCESSORIES

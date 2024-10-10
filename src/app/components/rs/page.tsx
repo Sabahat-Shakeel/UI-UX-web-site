@@ -6,7 +6,7 @@ export default function Ps() {
         {" "}
         All Acessories
       </h1>
-      <h1 className="text-gray-400 text-3xl text-wrap font-[Col] flex justify-center mt-11 ml-1">
+      <h1 className="text-stone-600 text-3xl text-wrap font-[Col] flex justify-center mt-11 text-center">
         {" "}
         Visit This Amazing Products Will You Really Liked it
       </h1>
@@ -18,7 +18,7 @@ export default function Ps() {
       </div>
       <hr />
       <div
-        className="bg-[#e63946] h-[130vh] flex space-x-2 space-y-7 flex-wrap  
+        className="bg-[#e63946] md:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
 
 justify-around"
       >

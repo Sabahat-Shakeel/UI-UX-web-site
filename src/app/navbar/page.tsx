@@ -83,15 +83,12 @@ function Header() {
           {" "}
           SABAHAT.
         </h1>
-        <div
-          className="flex justify-center gap-11 font-medium portrait:hidden"
-          data-aos="fade-up" // Yeh element scroll hone par fade-up animation karega
-        >
-          <Link className="mt-1" href="/feature" data-aos="fade-left">
+        <div className="flex justify-center gap-11 font-medium portrait:hidden">
+          <Link className="mt-1" href="/feature">
             Home
           </Link>
 
-          <select className="outline-none bg-transparent" data-aos="fade-left">
+          <select className="outline-none bg-transparent">
             <option value="shop">Shop now</option>
             <option className="text-black font-semibold" value="add cart">
               add to cart
@@ -101,7 +98,6 @@ function Header() {
           <select
             className="outline-none bg-transparent"
             defaultValue="products"
-            data-aos="fade-left"
           >
             <option defaultValue="product">Items | Products</option>
 
@@ -122,7 +118,7 @@ function Header() {
             </option>
           </select>
 
-          <Link className="mt-1" href="/" data-aos="fade-left">
+          <Link className="mt-1" href="/">
             Contact us
           </Link>
         </div>

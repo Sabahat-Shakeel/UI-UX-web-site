@@ -13,12 +13,12 @@ export default function Ps() {
 
       <div>
         <h4 className="text-3xl text-wrap flex justify-center mt-11 font-medium font-[Apple]">
-          Pink Shoes
+          Pink Shoes/Boot Shoes
         </h4>
       </div>
       <hr />
       <div
-        className="bg-[#ffced7] h-screen flex space-x-2 space-y-7 flex-wrap  
+        className="bg-[#ffced7] h-[130vh] flex space-x-2 space-y-7 flex-wrap  
 
 justify-around"
       >

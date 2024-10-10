@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function Cate() {
   return (
     <main className="gird grid-cols-2 sm:space-y-11 pt-16 min-h-screen portrait:flex-wrap ">
@@ -9,40 +10,48 @@ export default function Cate() {
         <div className="max-w-[24rem] w-[15rem] h-[15rem] portrait:text-xs portrait:w-40 portrait:h-40   border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  items-center pb-4 portrait:mt-20">
           <Image
             src="/s1.png"
-            alt="girls shoes"
+            alt="pink shoes"
             width={300}
             height={300}
             className="portrait:pb-2  portrait:w-44 sm:hover:scale-110 sm:duration-500 portrait:flex portrait:justify-center portrait:self-center"
           />
-          <span className="sm:mt-7 sm:ml-12 font-medium portrait:mx-5 ">
-            Girls pink shoes
+          <Link href = "/components/ps">
+          <span className="sm:mt-7 sm:ml-12 font-medium portrait:mx-5 hover:underline ">
+             Pink shoes
           </span>
+          </Link>
         </div>
 
         <div className="max-w-[24rem] w-[15rem] h-[15rem] portrait:text-xs portrait:w-40 portrait:h-40  border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  items-center pb-4 portrait:mt-20">
           <Image
-            src="/s2.png"
-            alt="boy shirt"
+            src="/f5.png"
+            alt="boy Tshirt"
             width={300}
             height={300}
             className="portrait:pb-2  portrait:w-44 sm:hover:scale-110 sm:duration-500 portrait:flex portrait:justify-center portrait:self-center"
           />
-          <span className="sm:mt-7 sm:ml-14 font-medium portrait:mx-5">
+        <Link href = "/components/ts " >
+          <span className="sm:mt-7 sm:ml-14 font-medium portrait:mx-5 hover:underline">
             Black-gray shirt
           </span>
+          </Link>
         </div>
+
 
         <div className="portrait:hidden max-w-[24rem] w-[15rem] h-[15rem] portrait:text-xs portrait:w-40 portrait:h-40  border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  items-center pb-4 portrait:mt-20">
           <Image
-            src="/s3.png"
-            alt="bags"
+            src="/f2.png"
+            alt="red shoes"
             width={300}
             height={300}
             className="  portrait:w-44 sm:hover:scale-110 sm:duration-500 portrait:flex portrait:justify-center portrait:self-center"
           />
-          <span className="sm:mt-7 sm:ml-12 font-medium ">
-            Luggage suitcase
+<Link href = "/components/rs "> 
+
+          <span className="sm:mt-7 sm:ml-12 font-medium hover:underline">
+            Red shoes
           </span>
+          </Link>
         </div>
       </div>
 
@@ -50,39 +59,47 @@ export default function Cate() {
         <div className="max-w-[24rem] w-[15rem] h-[15rem] portrait:text-xs portrait:w-40 portrait:h-40  border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  items-center pb-4 portrait:mt-20">
           <Image
             src="/s4.png"
-            alt="girls shoes"
+            alt="airpode"
             width={300}
             height={300}
             className=" portrait:pb-2 portrait:w-44 sm:hover:scale-110 sm:duration-500 portrait:flex portrait:justify-center portrait:self-center"
           />
-          <span className="sm:mt-11  sm:ml-8 font-medium ">
+
+          <Link href="/components/ap">
+          <span className="sm:mt-11  sm:ml-8 font-medium hover:underline ">
             Airpods sound booster
           </span>
+          </Link>
         </div>
 
         <div className="max-w-[24rem] w-[15rem] h-[15rem] portrait:text-xs portrait:w-40 portrait:h-40  border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  items-center pb-4 portrait:mt-20">
           <Image
-            src="/s5.png"
-            alt="girls shoes"
+            src="/hero2.png"
+            alt="headphone"
             width={300}
             height={300}
             className=" portrait:pb-2 portrait:w-44 sm:hover:scale-110 sm:duration-500 portrait:flex portrait:justify-center portrait:self-center 
             select-none"
           />
-          <span className="sm:mt-7 sm:ml-10 font-medium portrait:mx-5 ">
-            Washing-machine
+          <Link href = "/components/hp">
+          <span className="sm:mt-7 sm:ml-10 font-medium portrait:mx-5 hover:underline ">
+            Headphone
           </span>
+          </Link>
         </div>
 
         <div className="max-w-[24rem] w-[15rem] h-[15rem] portrait:text-xs portrait:w-40 portrait:h-40  border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  items-center pb-4 portrait:mt-20">
           <Image
             src="/s6.png"
-            alt="girls shoes"
+            alt="high heels"
             width={300}
             height={300}
             className="  portrait:w-44 sm:hover:scale-110 sm:duration-500 portrait:flex portrait:justify-center portrait:self-center portrait:pb-2"
           />
-          <span className="sm:mt-7 sm:ml-16 font-medium  portrait:mx-5 ">High heels</span>
+<Link href = "/components/bs">
+
+          <span className="sm:mt-7 sm:ml-16 font-medium  portrait:mx-5  hover:underline">High heels</span>
+          </Link>
         </div>
 
         <div className="sm:hidden max-w-[24rem] w-[15rem] h-[15rem] portrait:text-xs portrait:w-40 portrait:h-40  border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  items-center pb-4 portrait:mt-20">
@@ -93,7 +110,7 @@ export default function Cate() {
             height={300}
             className="portrait:w-44 sm:hover:scale-110 sm:duration-500 portrait:flex portrait:justify-center portrait:self-center portrait:pb-2"
           />
-          <span className="sm:mt-7 sm:ml-8 font-medium portrait:mx-6">
+          <span className="sm:mt-7 sm:ml-8 font-medium portrait:mx-6 hover:underline">
             Luggage suitcase
           </span>
         </div>

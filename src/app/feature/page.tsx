@@ -108,9 +108,9 @@ export default function Features() {
             10 %{" "}
           </span>
           <Image
-            src="/f3.png"
-            alt=""
-            width={219}
+            src="/f5.png"
+            alt="Tshirt"
+            width={250}
             height={200}
             className="sm:ml-3  portrait:ml-8 portrait:w-32"
           />

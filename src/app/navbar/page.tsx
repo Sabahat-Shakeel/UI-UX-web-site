@@ -44,17 +44,33 @@ function Header() {
               </Link>
             </li>
             <li className="hover:scale-105">
-              <Link href="/project" onClick={toggleMenu}>
-                Shop
+              <Link href="/components/rs" onClick={toggleMenu}>
+                Red Shoes
               </Link>
             </li>
             <li className="hover:scale-105">
-              <Link href="/skills" onClick={toggleMenu}>
-                Products
+              <Link href="/components/ps" onClick={toggleMenu}>
+                Pink Shoes
               </Link>
             </li>
             <li className="hover:scale-105">
-              <Link href="/about" onClick={toggleMenu}>
+              <Link href="/components/bs" onClick={toggleMenu}>
+                High Heels
+              </Link>
+            </li>
+
+            <li className="hover:scale-105">
+              <Link href="/components/hp" onClick={toggleMenu}>
+                Headphones
+              </Link>
+            </li>
+            <li className="hover:scale-105">
+              <Link href="/components/ap" onClick={toggleMenu}>
+                Airpods
+              </Link>
+            </li>
+            <li className="hover:scale-105">
+              <Link href="" onClick={toggleMenu}>
                 Contact us
               </Link>
             </li>
@@ -88,9 +104,7 @@ function Header() {
             data-aos="fade-left"
           >
             <option defaultValue="product">Items | Products</option>
-            <option className="text-black font-semibold" value="Appliances">
-              Home appliances
-            </option>
+
             <option className="text-black font-semibold" value="Shirt">
               Shirt
             </option>
@@ -98,7 +112,7 @@ function Header() {
               Heels
             </option>
             <option className="text-black font-semibold" value="Shoe">
-              Shoe
+              Shoes
             </option>
             <option className="text-black font-semibold" value="Headphone">
               Headphone

@@ -1,15 +1,15 @@
 import Image from "next/image";
 export default function Ps() {
   return (
-    <main className=" py-5 bg-gradient-to-br to-[#fdfcdc] via-[#e9d8a6] from-[#f4d58d] h-screen ">
-      <h1 className=" flex justify-center text-wrap font-bold text-orange-400 text-5xl font-[Noto]">
-        {" "}
-        All Acessories
-      </h1>
-      <h1 className="text-stone-600 text-3xl text-wrap font-[Col] flex justify-center mt-11 text-center">
-        {" "}
-        Visit This Amazing Products Will You Really Liked it
-      </h1>
+    <main className=" py-5 bg-[#e9ecef] h-screen ">
+    <h4 className=" flex justify-center text-wrap font-bold font text-black text-5xl font-[Col] ">
+      {" "}
+      All Acessories
+    </h4>
+    <h4 className="text-stone-600 text-xl text-wrap font-[Col] flex justify-center mt-11 text-center">
+      {" "}
+      Visit This Amazing Products Will You Really Liked It
+    </h4>
 
       <div>
         <h4 className="text-3xl text-wrap flex justify-center mt-11 font-medium font-[Apple]">

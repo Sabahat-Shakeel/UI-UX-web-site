@@ -2,11 +2,11 @@ import Image from "next/image";
 export default function Ps() {
   return (
     <main className=" py-5 bg-[#e9ecef] h-screen ">
-      <h1 className=" flex justify-center text-wrap font-bold text-black text-5xl font-[Noto]">
+      <h4 className=" flex justify-center text-wrap font-bold font text-black text-5xl font-[Col] ">
         {" "}
         All Acessories
-      </h1>
-      <h4 className="text-stone-600 text-3xl text-wrap font-[Col] flex justify-center mt-11 text-center">
+      </h4>
+      <h4 className="text-stone-600 text-xl text-wrap font-[Col] flex justify-center mt-11 text-center">
         {" "}
         Visit This Amazing Products Will You Really Liked It
       </h4>

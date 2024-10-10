@@ -7,11 +7,11 @@ export default function Hero2() {
         <h1 className="sm:text-6xl text-5xl text-wrap font-bold ">
           SMARTER ACCESSORIES
         </h1>
-        <h3 className="sm:text-5xl text-4xl font-bold text-wrap text-black">
+        <h3 className="sm:text-5xl text-4xl font-bold text-wrap text-[#231942]">
           {" "}
           Let&apos;s Explore Unique Products
         </h3>
-        <p className="text-lg text-[#353535]  max-w-3xl text-wrap">
+        <p className="text-lg text-[#fdfcdc]  max-w-3xl text-wrap">
           Our Most Selling Products,best-selling product and we also recommend
           this product to our buyers because of its features and premium quality
           providing our customers with a stylish look and a premium sound

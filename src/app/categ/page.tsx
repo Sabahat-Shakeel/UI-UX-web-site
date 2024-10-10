@@ -109,9 +109,12 @@ export default function Cate() {
             height={300}
             className="portrait:w-44 sm:hover:scale-110 sm:duration-500 portrait:flex portrait:justify-center portrait:self-center portrait:pb-2"
           />
-          <span className="sm:mt-7 sm:ml-8 font-medium portrait:mx-6 hover:underline">
-            Red shoes
-          </span>
+
+          <Link href="/components/rs">
+            <span className="sm:mt-7 sm:ml-8 font-medium portrait:mx-6 hover:underline">
+              Red shoes
+            </span>
+          </Link>
         </div>
       </div>
     </main>

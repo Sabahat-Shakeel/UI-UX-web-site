@@ -27,7 +27,7 @@ export default function Hero2() {
           alt=""
           width={400}
           height={300}
-          className="animate-pulse hover:animate-spin ease-linear delay-500  transition-transform"
+          className="animate-pulse hover:animate-spin ease-linear delay-500  transition-transform overflow-hidden"
         />
       </div>
       <button className="sm:hidden flex justify-center py-2 border-cyan-600 border rounded-br-full w-40  bg-gradient-to-tr to-cyan-600 via-cyan-600 from-slate-500 animate-pulse ml-1">

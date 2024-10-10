@@ -13,18 +13,18 @@ function Header() {
 
   return (
     <div className={`${isOpen ? "overflow-hidden" : ""}`}>
-      <div className="portrait:flex portrait:justify-between portrait:gap-x-44 portrait:items-center portrait:text-xs portrait:bg-gradient-to-tr to-slate-400 via-slate-500 from-slate-950 text-neutral-300 dark:neutral-500  overflow-x-hidden">
+      <div className="portrait:flex portrait:justify-between portrait:gap-x-44 portrait:items-center portrait:text-xs portrait:bg-gradient-to-tr to-cyan-900 via-cyan-700 from-cyan-950 text-neutral-300 dark:neutral-500  overflow-x-hidden">
         <h1 className="text-lg font-bold ml-3 sm:hidden sticky top-0 z-30 first-letter:text-2xl first-letter:text-cyan-400 ">
           SABAHAT.
         </h1>
         <div className="md:hidden cursor-pointer p-3 " onClick={toggleMenu}>
-          <div className="w-8 h-0.5 bg-neutral-500 mb-1"></div>
-          <div className="w-8 h-0.5 bg-neutral-500 mb-1"></div>
-          <div className="w-6 h-0.5 bg-neutral-500 "></div>
+          <div className="w-8 h-0.5 bg-neutral-300 mb-1"></div>
+          <div className="w-8 h-0.5 bg-neutral-300 mb-1"></div>
+          <div className="w-6 h-0.5 bg-neutral-300 "></div>
         </div>
 
         <div
-          className={`fixed top-0 left-0 w-full h-full bg-gradient-to-tr to-slate-500 via-slate-900 from-slate-400 z-50 flex flex-col items-center justify-center  transition-transform duration-300 ${
+          className={`fixed top-0 left-0 w-full h-full bg-gradient-to-tr to-cyan-500 via-cyan-900 from-cyan-900 z-50 flex flex-col items-center justify-center  transition-transform duration-300 ${
             isOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >

@@ -6,11 +6,12 @@ export default function Features() {
       <hr />
 
       <div className="font-serif font-thin">
-        <h3 className="sm:ml-5 sm:text-4xl portrait:ml-2 portrait:text-3xl text-black">
+        <h3 className="sm:ml-5 sm:text-4xl portrait:ml-2 portrait:text-3xl text-black"
+       >
           Features
         </h3>
       </div>
-      <div className="sm:flex portrait:grid portrait:grid-cols-2 portrait:gap-7 portrait:pt-6 portrait:ml-1 portrait:mr-3 sm:gap-20 sm:pt-11 ">
+      <div className="sm:flex portrait:grid portrait:grid-cols-2 portrait:gap-7 portrait:pt-6 portrait:ml-1 portrait:mr-3 sm:gap-20 sm:pt-11 "    data-aos="fade-down">
         <div className="sm:max-w-[24rem] sm:w-[20rem] sm:h-[25rem]  portrait:text-xs portrait:w-44 portrait:h-64 border-2 rounded-lg border-slate-700 bg-gradient-to-tr shadow-inner to-slate-500 from-slate-950  grid items-center pb-4">
           <span className="ml-1 bg-red-700 rounded-md w-10 flex text-white justify-center">
             HOT
@@ -23,7 +24,7 @@ export default function Features() {
             alt="headphone"
             width={220}
             height={200}
-            className="sm:ml-4 portrait:ml-5 portrait:w-36 "
+            className="sm:ml-4 portrait:ml-5 portrait:w-36 "  
           />
           <div className="flex justify-center ">
             <button className="  border border-slate-600 hover:bg-red-700 hover:border-transparent focus:bg-red-700 py-1 sm:w-44 flex justify-center  rounded-lg bg-gray-950  text-white portrait:px-8 outline-none">

@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <div className={`${isOpen ? "overflow-hidden" : ""}`}>
-      <div className="portrait:flex portrait:justify-between portrait:gap-x-44 portrait:items-center portrait:text-xs portrait:bg-gradient-to-tr to-slate-400 via-slate-500 from-slate-950 text-neutral-300 dark:neutral-500">
+      <div className="portrait:flex portrait:justify-between portrait:gap-x-44 portrait:items-center portrait:text-xs portrait:bg-gradient-to-tr to-slate-400 via-slate-500 from-slate-950 text-neutral-300 dark:neutral-500  overflow-x-hidden">
         <h1 className="text-lg font-bold ml-3 sm:hidden sticky top-0 z-30 first-letter:text-2xl first-letter:text-cyan-400 ">
           SABAHAT.
         </h1>
@@ -67,47 +67,51 @@ function Header() {
           {" "}
           SABAHAT.
         </h1>
+        <div
+  className="flex justify-center gap-11 font-medium portrait:hidden"
+  data-aos="fade-up" // Yeh element scroll hone par fade-up animation karega
+>
+  <Link className="mt-1" href="/feature" data-aos="fade-left">
+    Home
+  </Link>
 
-        <div className="flex justify-center gap-11 font-medium portrait:hidden">
-          <Link className="mt-1" href="/feature">
-            Home
-          </Link>
+  <select className="outline-none bg-transparent" data-aos="fade-left">
+    <option value="shop">Shop now</option>
+    <option className="text-black font-semibold" value="add cart">
+      add to cart
+    </option>
+  </select>
 
-          <select className="outline-none bg-transparent ">
-            <option value="shop">Shop now</option>
-            <option className=" text-black font-semibold" value="add cart">
-              add to cart
-            </option>
-          </select>
-          <select
-            className="outline-none bg-transparent"
-            defaultValue="products"
-          >
-            <option defaultValue="product">Items | Products</option>
-            <option className=" text-black font-semibold  " value="Appliances">
-            Home appliances
-            </option>
-            <option className=" text-black font-semibold  " value="Appliances">
-              Shirt
-            </option>
-            <option className=" text-black font-semibold  " value="Appliances">
-              Heels
-            </option>
-            <option className=" text-black font-semibold  " value="Appliances">
-              Shoe
-            </option>
-            <option className=" text-black font-semibold  " value="Appliances">
-              Headphone
-            </option>
-            <option className=" text-black font-semibold  " value="Appliances">
-              Airpods
-            </option>
-          </select>
+  <select
+    className="outline-none bg-transparent"
+    defaultValue="products"
+    data-aos="fade-left"
+  >
+    <option defaultValue="product">Items | Products</option>
+    <option className="text-black font-semibold" value="Appliances">
+      Home appliances
+    </option>
+    <option className="text-black font-semibold" value="Shirt">
+      Shirt
+    </option>
+    <option className="text-black font-semibold" value="Heels">
+      Heels
+    </option>
+    <option className="text-black font-semibold" value="Shoe">
+      Shoe
+    </option>
+    <option className="text-black font-semibold" value="Headphone">
+      Headphone
+    </option>
+    <option className="text-black font-semibold" value="Airpods">
+      Airpods
+    </option>
+  </select>
 
-          <Link className="mt-1" href="/">
-            Contact us
-          </Link>
-        </div>
+  <Link className="mt-1" href="/" data-aos="fade-left">
+    Contact us
+  </Link>
+</div>
 
         <div className="flex mr-5 gap-7  portrait:hidden">
           <Image

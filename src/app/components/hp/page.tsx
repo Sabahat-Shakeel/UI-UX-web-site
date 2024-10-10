@@ -6,10 +6,10 @@ export default function Ps() {
         {" "}
         All Acessories
       </h1>
-      <h1 className="text-stone-600 text-3xl text-wrap font-[Col] flex justify-center mt-11 text-center">
+      <h4 className="text-stone-600 text-3xl text-wrap font-[Col] flex justify-center mt-11 text-center">
         {" "}
-        Visit This Amazing Products Will You Really Liked it
-      </h1>
+        Visit This Amazing Products Will You Really Liked It.
+      </h4>
 
       <div>
         <h4 className="text-3xl text-wrap flex justify-center mt-11 font-medium font-[Apple]">
@@ -48,7 +48,7 @@ justify-around"
         </div>
 
         <div className="w-40 h-40 sm:w-80 sm:h-80 border border-pink-300  rounded-xl bg-[#62b6cb] ml-1">
-          <Image src="/h5.png" alt="headphones" width="500" height="500" />
+          <Image src="/h6.png" alt="headphones" width="500" height="500" />
           <span>$500</span>
         </div>
       </div>

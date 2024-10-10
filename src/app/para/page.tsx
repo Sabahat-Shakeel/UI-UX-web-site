@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Para() {
   return (
     <div>
-      <div className="flex-wrap border border-slate-800 bg-cyan-900 p-11 mt-28 m-2 text-2xl text-stone-400 text-pretty ">
+      <div className="flex-wrap border border-slate-800 bg-cyan-900 p-11 mt-28 m-2 sm:text-2xl text-lg text-[#fdfcdc] text-pretty ">
         <p>
         Sabahat&apos;s Elegant E-Commerce Web Application Designer, E-Commerce
         Website Application Building Platforms For Online Stores In 2024 .{" "}

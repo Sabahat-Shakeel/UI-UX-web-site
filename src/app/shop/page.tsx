@@ -30,7 +30,7 @@ export default function Ps() {
       </div>
       <hr />
       <div
-        className="bg-[#a9d6e5] md:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
+        className="bg-[#a9d6e5] sm:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
 
 justify-around"
       >
@@ -78,7 +78,7 @@ justify-around"
       </div>
       <hr />
       <div
-        className="bg-[#343a40] md:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
+        className="bg-[#343a40] sm:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
 
 justify-around"
       >
@@ -126,7 +126,7 @@ justify-around"
       </div>
       <hr />
       <div
-        className="bg-[#a9d6e5] md:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
+        className="bg-[#a9d6e5] sm:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
 
 justify-around"
       >
@@ -168,7 +168,7 @@ justify-around"
       </div>
       <hr />
       <div
-        className="bg-[#ffced7] md:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
+        className="bg-[#ffced7] sm:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
 
 justify-around"
       >
@@ -210,7 +210,7 @@ justify-around"
       </div>
       <hr />
       <div
-        className="bg-[#343a40] md:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
+        className="bg-[#343a40] sm:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
 
 justify-around"
       >
@@ -258,7 +258,7 @@ justify-around"
       </div>
       <hr />
       <div
-        className="bg-[#e63946] md:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
+        className="bg-[#e63946] sm:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
 
 justify-around"
       >

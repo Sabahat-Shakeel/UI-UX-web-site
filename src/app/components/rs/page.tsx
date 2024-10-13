@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Ps() {
   return (
     <main className=" py-5 bg-[#e9ecef] h-screen ">
-    <h4 className="underline underline-offset-4 flex justify-center text-wrap font-bold font text-black text-5xl font-[Col] ">
+    <h4 className="underline underline-offset-4 flex justify-center text-wrap font-bold font text-black text-3xl md:text-5xl font-[Col] ">
       {" "}
    <Link href = "/shop">Exclusive Discount </Link>   
     </h4>
@@ -20,7 +20,7 @@ export default function Ps() {
       </div>
       <hr />
       <div
-        className="bg-[#e63946] md:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
+        className="bg-[#e63946] sm:h-[130vh] h-screen flex space-x-2 space-y-7 flex-wrap  
 
 justify-around"
       >

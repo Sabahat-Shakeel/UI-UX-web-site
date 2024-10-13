@@ -103,10 +103,9 @@ export default function Reviews() {
 
       <div className='flex flex-col py-11 space-y-8 shadow-md border justify-center mt-11'>
       <p className='flex justify-center font-semibold'>We happy to see your feedback!</p>
-<input className='border-transparent py-4 outline-none shadow-md border border-gray-400 rounded-full text-center' type ="email" placeholder='Email'></input>
-<input className='border-transparent py-4 outline-none shadow-md border border-gray-400 rounded-full text-center' type ="text" placeholder='Name'></input>
-<input className='border-transparent py-4 outline-none shadow-md border border-gray-400 rounded-full text-center' type = "text" placeholder='
-Feedback'></input>
+<input className='py-4 outline-none shadow-md rounded-full text-center' type ="email"placeholder='Email' ></input>
+<input className='py-4 outline-none shadow-md rounded-full text-center' type ="text" placeholder='Name' ></input>
+<input className='py-4 outline-none shadow-md rounded-full text-center' type = "text"placeholder='Feedback' ></input>
 <button className='flex justify-center outline-none ml-8 focus:bg-black focus:text-white bg-yellow-400 px-8 py-1 rounded-md border w-28 '>Submit</button>
       </div>
     </div>

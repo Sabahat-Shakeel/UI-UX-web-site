@@ -19,7 +19,7 @@ export default function Ps() {
         stylish look and a premium sound experience.
       </p></div>
      
-      <h1 className="w-40 ml-2 p-1 rounded-tr-2xl text-white font-bold animate-[changeBg_3s_infinite]">
+      <h1 className="w-40 ml-2 p-1 rounded-tr-full text-white font-bold animate-[changeBg_3s_infinite]">
         30 % Off Sale here
       </h1>
 

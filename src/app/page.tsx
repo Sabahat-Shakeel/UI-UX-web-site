@@ -21,7 +21,7 @@ export default function HomePage() {
       <Cover />
       <Para />
       <Ship />
-      <Footer />
+   <Footer/>
     </main>
   );
 }

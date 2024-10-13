@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Rank from "../rankstar/page";
+import Link from "next/link";
 export default function Features() {
   return (
     <div className=" via-slate-900 from-slate-900 sm:mt-4 h-screen sm:ml-3 sm:mr-3 flex-wrap">
@@ -28,7 +29,7 @@ export default function Features() {
           />
           <div className="flex justify-center ">
             <button className="  border border-slate-600 hover:bg-red-700 hover:border-transparent focus:bg-red-700 py-1 sm:w-44 flex justify-center  rounded-lg bg-gray-950  text-white portrait:px-8 outline-none">
-              Add to cart
+     <Link href = "/hero2.png">      Add to cart </Link>   
             </button>
           </div>
 
@@ -72,7 +73,7 @@ export default function Features() {
           />
           <div className="flex justify-center ">
             <button className="  border border-slate-600 hover:bg-red-700 hover:border-transparent focus:bg-red-700 py-1 sm:w-44 flex justify-center  rounded-lg bg-gray-950  text-white portrait:px-8 outline-none">
-              Add to cart
+     <Link href = "/f2.png" >  Add to cart </Link> 
             </button>
           </div>
 
@@ -116,7 +117,7 @@ export default function Features() {
           />
           <div className="flex justify-center mt-9 flex-col ">
             <button className="  border border-slate-600 hover:bg-red-700 hover:border-transparent focus:bg-red-700 py-1 sm:w-44 flex justify-center sm:ml-8 rounded-lg bg-gray-950 portrait:w-32 portrait:ml-5 text-white  outline-none">
-              Add to cart
+      <Link href = "/f5.png">       Add to cart </Link> 
             </button>
           </div>
 
@@ -160,7 +161,7 @@ export default function Features() {
           />
           <div className="flex justify-center sm:mt-9 portrait:mt-6 flex-col ">
             <button className="  border border-slate-600 hover:bg-red-700 hover:border-transparent focus:bg-red-700 py-1 sm:w-44 flex justify-center sm:ml-8 rounded-lg bg-gray-950 portrait:w-32 portrait:ml-5 text-white  outline-none">
-              Add to cart
+       <Link href  = "/f4.png"  > Add to cart</Link>    
             </button>
           </div>
 

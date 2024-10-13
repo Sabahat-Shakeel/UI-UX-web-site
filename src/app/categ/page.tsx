@@ -16,7 +16,7 @@ export default function Cate() {
             className="portrait:pb-2  portrait:w-44 sm:hover:scale-110 sm:duration-500 portrait:flex portrait:justify-center portrait:self-center"
           />
           <Link href="/components/ps">
-            <span className="sm:mt-7 sm:ml-12 font-medium portrait:mx-5 hover:underline ">
+            <span className="sm:mt-7 sm:ml-12 font-medium portrait:mx-5 hover:underline text-blue-800 underline underline-offset-2 hover:text-black ">
               Pink shoes
             </span>
           </Link>
@@ -31,7 +31,7 @@ export default function Cate() {
             className="portrait:pb-2  portrait:w-44 sm:hover:scale-110 sm:duration-500 portrait:flex portrait:justify-center portrait:self-center"
           />
           <Link href="/components/ts ">
-            <span className="sm:mt-7 sm:ml-14 font-medium portrait:mx-5 hover:underline">
+            <span className="sm:mt-7 sm:ml-14 font-medium portrait:mx-5 hover:underline text-blue-800 underline underline-offset-2 hover:text-black">
               Black-gray shirt
             </span>
           </Link>
@@ -46,7 +46,7 @@ export default function Cate() {
             className="  portrait:w-44 sm:hover:scale-110 sm:duration-500 portrait:flex portrait:justify-center portrait:self-center"
           />
           <Link href="/components/rs ">
-            <span className="sm:mt-7 sm:ml-12 font-medium hover:underline">
+            <span className="sm:mt-7 sm:ml-12 font-medium hover:underline  text-blue-800 underline underline-offset-2 hover:text-black">
               Red shoes
             </span>
           </Link>
@@ -64,7 +64,7 @@ export default function Cate() {
           />
 
           <Link href="/components/ap">
-            <span className="sm:mt-11  sm:ml-8 font-medium hover:underline ">
+            <span className="sm:mt-11  sm:ml-8 font-medium hover:underline  text-blue-800 underline underline-offset-2 hover:text-black">
               Airpods sound booster
             </span>
           </Link>
@@ -80,7 +80,7 @@ export default function Cate() {
             select-none"
           />
           <Link href="/components/hp">
-            <span className="sm:mt-7 sm:ml-10 font-medium portrait:mx-5 hover:underline ">
+            <span className="sm:mt-7 sm:ml-16 font-medium portrait:mx-5 hover:underline  text-blue-800 underline underline-offset-2 hover:text-black ">
               Headphone
             </span>
           </Link>
@@ -95,7 +95,7 @@ export default function Cate() {
             className="  portrait:w-44 sm:hover:scale-110 sm:duration-500 portrait:flex portrait:justify-center portrait:self-center portrait:pb-2"
           />
           <Link href="/components/bs">
-            <span className="sm:mt-7 sm:ml-16 font-medium  portrait:mx-5  hover:underline">
+            <span className="sm:mt-7 sm:ml-16 font-medium  portrait:mx-5  hover:underline text-blue-800 underline underline-offset-2 hover:text-black">
               High heels
             </span>
           </Link>
@@ -111,7 +111,7 @@ export default function Cate() {
           />
 
           <Link href="/components/rs">
-            <span className="sm:mt-7 sm:ml-8 font-medium portrait:mx-6 hover:underline">
+            <span className="sm:mt-7 sm:ml-8 font-medium portrait:mx-6 hover:underline text-blue-800 underline underline-offset-2 hover:text-black">
               Red shoes
             </span>
           </Link>

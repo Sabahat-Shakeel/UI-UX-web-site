@@ -26,25 +26,27 @@ export default function Footer() {
           <div className="flex ml-16 portrait:ml-5 font-light  sm:justify-center items-start portrait:text-xl ">
             <ul className="items-start  sm:pt-11">
               <li className="text-stone-200 mt-1 font-medium underline portrait:text-2xl pt-11">
-                <Link href="">Products</Link>
+                <Link href="/shop">Products</Link>
+              </li>
+              
+              <li className="text-stone-400 mt-2 ml-2 hover:underline">
+                <Link href="/components/ts">Shirt</Link>
               </li>
               <li className="text-stone-400 mt-2 ml-2 hover:underline">
-                <Link href="">Shoes</Link>
+                <Link href="/components/bs">Heels</Link>
               </li>
               <li className="text-stone-400 mt-2 ml-2 hover:underline">
-                <Link href="">Shirt</Link>
+                <Link href="/components/ap">Airpodas</Link>
               </li>
               <li className="text-stone-400 mt-2 ml-2 hover:underline">
-                <Link href="">Heels</Link>
+                <Link href="/components/rs">Red shoes</Link>
               </li>
               <li className="text-stone-400 mt-2 ml-2 hover:underline">
-                <Link href="">Head phone</Link>
+                <Link href="/components/ps">Pink Shoes</Link>
               </li>
+             
               <li className="text-stone-400 mt-2 ml-2 hover:underline">
-                <Link href="">Home appliances</Link>
-              </li>
-              <li className="text-stone-400 mt-2 ml-2 hover:underline">
-                <Link href="">Washing machine</Link>
+                <Link href="/components/hp">Head phone</Link>
               </li>
             </ul>
           </div>

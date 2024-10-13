@@ -1,10 +1,13 @@
+import Footer from "@/app/footer/page";
+import Reviews from "@/app/review/review";
 import Image from "next/image";
+import Link from "next/link";
 export default function Ps() {
   return (
     <main className=" py-5 bg-[#e9ecef] h-screen ">
-    <h4 className=" flex justify-center text-wrap font-bold font text-black text-5xl font-[Col] ">
+   <h4 className="underline underline-offset-4 flex justify-center text-wrap font-bold font text-black text-5xl font-[Col] ">
       {" "}
-      All Acessories
+   <Link href = "/shop">Exclusive Discount </Link>   
     </h4>
     <h4 className="text-stone-600 text-xl text-wrap font-[Col] flex justify-center mt-11 text-center">
       {" "}
@@ -52,6 +55,10 @@ justify-around"
           <span>$500</span>
         </div>
       </div>
+      <br/>
+      <Reviews/>
+      <br/>
+      <Footer/>
     </main>
   );
 }

@@ -78,3 +78,15 @@ h3{
     background-color: rgb(255, 255, 255); 
   }
   
+  @keyframes changeBg {
+    0% {
+      background-color: #f57200; /* Tailwind yellow-400 */
+    }
+    50% {
+      background-color: #ff0000; /* Tailwind orange-400 */
+    }
+    100% {
+      background-color: #f57200; /* Tailwind yellow-400 */
+    }
+  }
+  
